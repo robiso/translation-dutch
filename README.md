@@ -4,8 +4,9 @@
 
 <br><br>
 
-Language author: Stephan Stanisic
-This plugin adds dutch translations to the WonderCMS admin area.
+Translation author: Stephan Stanisic
+
+This plugin adds Dutch translations to the WonderCMS admin area.
 
 ![](https://images.stanisic.nl/5oBG9Zaw/qU1dXIyr)
 
