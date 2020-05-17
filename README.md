@@ -13,9 +13,6 @@ This plugin adds Dutch translations to the WonderCMS admin area.
 ## How to use
 1. Login to your WonderCMS website.
 2. Click "Settings" and click "Plugins".
-3. Enter the repo url
-   (`https://github.com/StephanStanisic/zlanguage-nl_NL`) at the bottom of
-   the page and click "Add".
 3. Find plugin in the list and click "install".
 
 ## How this works
