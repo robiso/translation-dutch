@@ -60,7 +60,6 @@ SECURITY
     ">ON (warning: may break your website)",">Zet aan (waarshuwing: maakt je website mogelijk onbruikbaar!)"
     ">OFF (reset htaccess to default)",">Uit"
     "> Read more before enabling","> Lees meer voordat dit aangezet wordt"
-
     ">Last 5 logins",">Laatse 5 keer ingelogt"
 
 STATISTICS
