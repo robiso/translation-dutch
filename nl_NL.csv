@@ -2,9 +2,11 @@ OVERLAYS
     "> Saving","> Opslaan"
     "> Checking for updates","> Zoeken naar updates"
 
+
 BUTTONS
     ">Settings",">Instellingen"
     "> Logout","> Uitloggen"
+
 
 MENU ITEMS
     ">Current page",">Huidige Pagina"
@@ -15,6 +17,7 @@ MENU ITEMS
     ">Security",">Beveiliging"
     ">Statistics",">Statistieken"
 
+
 CURRENT PAGE
     ">Page title",">Titel"
     ">Page keywords",">Zoekwoorden"
@@ -22,13 +25,15 @@ CURRENT PAGE
     "> Delete page \((.*?)\)","> Verwijder pagina ($1)"
     "return confirm\('Delete (.*?)\?'\)","return confirm('Verwijder $1?')"
 
-GENERAL
+
+MENU
     ">Main website title",">Websitetitel"
     ">Page to display on homepage",">Startpagina"
     ">Delete files",">Verwijder bestanden"
 
     ">visit",">open"
     "> Add page","> Pagina toevoegen"
+
 
 THEMES AND PLUGINS
     ">List of all themes",">Alle thema's"
@@ -46,6 +51,7 @@ THEMES AND PLUGINS
     "> Read more about custom repositories","> Meer informatie over eigen repositories"
     ">List of all plugins",">Alle plugin's"
 
+
 SECURITY
     ">Admin login URL",">Beheerder login URL"
     ">Important: bookmark\/save your login url after changing it",">Belangrijk! Bewaar de login url na het aanpassen."
@@ -62,6 +68,7 @@ SECURITY
     "> Read more before enabling","> Lees meer voordat dit aangezet wordt"
     ">Last 5 logins",">Laatse 5 keer ingelogt"
 
+
 STATISTICS
     ">Statistieken this week",">Deze week"
     ">Pageviews",">Paginaweergaven"
@@ -69,6 +76,7 @@ STATISTICS
     ">Most popular page",">Meest bekeken pagina"
     ">Paginaweergaven last two weeks",">Paginaweergaven afgelopen twee weken"
     ">Sessies last two weeks",">Sessies afgelopen twee weken"
+
 
 FOOTER
     ">News",">Nieuws"
