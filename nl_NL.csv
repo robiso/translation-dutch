@@ -62,8 +62,8 @@ SECURITY
     "> How to restore backup","> Hoe herstel ik een backup?"
     ">Improved security \(Apache only\)",">Verbeterde beveiliging (alleen Apache)"
     ">HTTPS redirect, 30 day caching, iframes allowed only from sme origin, mime type sniffing prevention, stricter cookie and refferer policy.",">Forceer HTTPS, 30 dagen cache, iframes alleen binnen eigen domein, mime-type herkenning preventie, strictere cookie en referentie regels."
-    ">ON (warning: may break your website)",">Zet aan (waarshuwing: maakt je website mogelijk onbruikbaar!)"
-    ">OFF (reset htaccess to default)",">Uit"
+    ">ON \(warning: may break your website\)",">Zet aan (waarshuwing: maakt je website mogelijk onbruikbaar!)"
+    ">OFF \(reset htaccess to default\)",">Uit"
     "> Read more before enabling","> Lees meer voordat dit aangezet wordt"
     ">Backup","> Back-up"
     "> Backup website","> Back-up website"
@@ -72,12 +72,13 @@ SECURITY
 
 STATISTICS
     ">Statistics",">Statistieken"
-    ">Statistieken this week",">Deze week"
-    ">Pageviews",">Paginaweergaven"
-    ">Sessions",">Sessies"
+    ">Today",">Vandaag"
+    ">This week",">Deze week"
     ">Most popular page",">Meest bekeken pagina"
-    ">Paginaweergaven last two weeks",">Paginaweergaven afgelopen twee weken"
-    ">Sessies last two weeks",">Sessies afgelopen twee weken"
+    ">Pageviews last two weeks",">Paginaweergaven duren twee weken"
+    ">Sessions last two weeks",">Sessies duren twee weken"
+    ">Sessions",">Sessies"
+    ">Pageviews",">Paginaweergaven"
 
 
 FOOTER
