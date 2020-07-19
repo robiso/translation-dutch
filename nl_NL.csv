@@ -37,7 +37,6 @@ FILES
 
 
 THEMES AND PLUGINS
-    ">List of all themes",">Alle thema's"
     "> Check for updates","> Controleer voor updates"
     "return confirm\('Remove (.*?)\?'\)","return confirm('Verwijder thema $1?')"
     ">Active",">Actief"
@@ -50,7 +49,6 @@ THEMES AND PLUGINS
     "Enter URL to custom repository","URL naar eigen repository"
     "> Add", "> Voeg toe"
     "> Read more about custom repositories","> Meer informatie over eigen repositories"
-    ">List of all plugins",">Alle plugin's"
 
 
 SECURITY
