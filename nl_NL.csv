@@ -65,6 +65,8 @@ SECURITY
     ">ON (warning: may break your website)",">Zet aan (waarshuwing: maakt je website mogelijk onbruikbaar!)"
     ">OFF (reset htaccess to default)",">Uit"
     "> Read more before enabling","> Lees meer voordat dit aangezet wordt"
+    ">Backup","> Back-up"
+    "> Backup website","> Back-up website"
     ">Last 5 logins",">Laatse 5 keer ingelogt"
 
 
