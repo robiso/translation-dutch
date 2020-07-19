@@ -15,7 +15,6 @@ MENU ITEMS
     ">Themes",">Thema's"
     ">Plugins",">Plugins"
     ">Security",">Beveiliging"
-    ">Statistics",">Statistieken"
 
 
 CURRENT PAGE
@@ -33,6 +32,11 @@ MENU
 
     ">visit",">open"
     "> Add page","> Pagina toevoegen"
+
+
+FILES
+    ">Upload","> Uploaden"
+    ">Delete files","> Verwijder bestanden"
 
 
 THEMES AND PLUGINS
@@ -70,6 +74,7 @@ SECURITY
 
 
 STATISTICS
+    ">Statistics",">Statistieken"
     ">Statistieken this week",">Deze week"
     ">Pageviews",">Paginaweergaven"
     ">Sessions",">Sessies"
