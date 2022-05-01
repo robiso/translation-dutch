@@ -19,7 +19,7 @@ MENU ITEMS
 CURRENT PAGE
     ">Page title",">Titel"
     ">Page keywords",">Zoekwoorden"
-    ">Page description",">Omschrijfing"
+    ">Page description",">Omschrijving"
     "> Delete page \((.*?)\)","> Verwijder pagina ($1)"
     "return confirm\('Delete (.*?)\?'\)","return confirm('Verwijder $1?')"
 
