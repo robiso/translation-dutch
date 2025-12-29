@@ -6,6 +6,7 @@
             "repo": "https://github.com/robiso/translation-dutch/tree/master",
             "zip": "https://github.com/robiso/translation-dutch/archive/master.zip",
             "summary": "Dutch language pack.",
+            "group": "translation",
             "version": "3.0.2",
             "image": "https://raw.githubusercontent.com/robiso/translation-dutch/master/preview.jpg"
         }
