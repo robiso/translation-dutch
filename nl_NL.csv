@@ -22,6 +22,7 @@ CURRENT PAGE
     ">Page description",">Omschrijving"
     "> Delete page \((.*?)\)","> Verwijder pagina ($1)"
     "return confirm\('Delete (.*?)\?'\)","return confirm('Verwijder $1?')"
+    "data-confirm=""Delete (.*?)\?""","data-confirm=""Verwijder $1?"""
 
 
 MENU
@@ -39,8 +40,10 @@ FILES
 THEMES AND PLUGINS
     "> Check for updates","> Controleer voor updates"
     "return confirm\('Remove (.*?)\?'\)","return confirm('Verwijder thema $1?')"
+    "data-confirm=""Remove (.*?)\?""","data-confirm=""Verwijder thema $1?"""
     ">Active",">Actief"
     "return confirm\('Activate (.*?) theme\?'\)","return confirm('Thema $1 activeren?')"
+    "data-confirm=""Activate (.*?) theme\?""","data-confirm=""Thema $1 activeren?"""
     "> Activate","> Activeren"
     "> More info","> Meer info"
     "> Install","> Installeren"
