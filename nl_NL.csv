@@ -5,6 +5,7 @@ OVERLAYS
 
 BUTTONS
     "> Settings",">Instellingen"
+    "return confirm\('Log out\?'\)","return confirm('Uitloggen?')"
 
 
 MENU ITEMS
@@ -29,6 +30,10 @@ MENU
     ">Main website title",">Websitetitel"
     ">Page to display on homepage",">Startpagina"
     ">visit",">open"
+    "title=""Make page private \(only you see it while logged in\)""","title=""Pagina privé maken (alleen zichtbaar voor de ingelogde beheerder)"""
+    "title=""Make page public""","title=""Pagina openbaar maken"""
+    "lockIcon""><\/i> private<\/a>","lockIcon""></i> privé</a>"
+    "lockIcon""><\/i> public<\/a>","lockIcon""></i> openbaar</a>"
     "> Add page","> Pagina toevoegen"
 
 
@@ -39,17 +44,24 @@ FILES
 
 THEMES AND PLUGINS
     "> Check for updates","> Controleer voor updates"
-    "return confirm\('Remove (.*?)\?'\)","return confirm('Verwijder thema $1?')"
-    "data-confirm=""Remove (.*?)\?""","data-confirm=""Verwijder thema $1?"""
+    "title=""Remove this repository from the list""","title=""Deze repository uit de lijst verwijderen"""
+    "data-confirm=""Remove (.*?)\? Anything installed from it stays\.""","data-confirm=""Verwijder $1? Wat ervan geïnstalleerd is, blijft staan."""
+    "return confirm\('Remove (.*?)\?'\)","return confirm('Verwijder $1?')"
+    "data-confirm=""Remove (.*?)\?""","data-confirm=""Verwijder $1?"""
     ">Active",">Actief"
     "return confirm\('Activate (.*?) theme\?'\)","return confirm('Thema $1 activeren?')"
     "data-confirm=""Activate (.*?) theme\?""","data-confirm=""Thema $1 activeren?"""
+    "data-confirm=""Disable (.*?)\?""","data-confirm=""$1 uitschakelen?"""
+    "data-confirm=""This is an (.*?) plugin\. Installing (.*?) will disable (.*?)\. Continue\?""","data-confirm=""Dit is een $1-plugin. Installeren van $2 schakelt $3 uit. Doorgaan?"""
+    "data-confirm=""This is an (.*?) plugin\. Updating (.*?) will keep it enabled and disable (.*?)\. Continue\?""","data-confirm=""Dit is een $1-plugin. Bijwerken van $2 laat deze ingeschakeld en schakelt $3 uit. Doorgaan?"""
+    "data-confirm=""This is an (.*?) plugin\. Enabling (.*?) will disable (.*?)\. Continue\?""","data-confirm=""Dit is een $1-plugin. Inschakelen van $2 schakelt $3 uit. Doorgaan?"""
     "> Activate","> Activeren"
     "> More info","> Meer info"
     "> Install","> Installeren"
     ">Installed version:",">Geïnstalleerde versie:"
     ">Custom repository",">Eigen repository"
     "Enter URL to custom repository","URL naar eigen repository"
+    "return confirm\('Adding unknown modules can be VERY dangerous, are you sure you want to continue\?'\)","return confirm('Het toevoegen van onbekende modules kan ZEER gevaarlijk zijn. Toch doorgaan?')"
     "> Add", "> Voeg toe"
     "> Read more about custom repositories","> Meer informatie over eigen repositories"
 
@@ -67,6 +79,7 @@ SECURITY
     ">HTTPS redirect, 30 day caching, iframes allowed only from sme origin, mime type sniffing prevention, stricter cookie and refferer policy.",">Forceer HTTPS, 30 dagen cache, iframes alleen binnen eigen domein, mime-type herkenning preventie, strictere cookie en referentie regels."
     ">ON \(warning: may break your website\)",">Zet aan (waarshuwing: maakt je website mogelijk onbruikbaar!)"
     ">OFF \(reset htaccess to default\)",">Uit"
+    "return confirm\('Are you sure\? This might break your website if you do not have SSL configured correctly\.'\)","return confirm('Zeker weten? Dit kan de website onbruikbaar maken als SSL niet goed is ingesteld.')"
     "> Read more before enabling","> Lees meer voordat dit aangezet wordt"
     ">Backup","> Back-up"
     "> Backup website","> Back-up website"
